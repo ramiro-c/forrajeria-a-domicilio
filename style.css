@@ -36,10 +36,21 @@ body {
 .contact ul li {
   list-style: none;
 }
-
-a {
+.contact ul li a {
   text-decoration: none;
-  color: black;
+}
+.contact ul li a:visited {
+  color: initial;
+}
+.contact ul li a span {
+  text-decoration: underline;
+  color: #4f5cbc;
+  font-weight: bolder;
+}
+.contact p img {
+  width: 80px;
+  position: relative;
+  top: 6px;
 }
 
 .fa-whatsapp {
@@ -74,5 +85,7 @@ a {
 }
 
 .footer span a {
+  text-decoration: none;
+  color: black;
   font-weight: 700;
 }
